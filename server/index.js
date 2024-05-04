@@ -6,7 +6,7 @@ global.access_token = ''
 var spotify_client_id = '441f8af14e4144038b275eca3692ea9a'
 var spotify_client_secret = '1be1d8a20de84aab96b73e7afb3a4759'
 
-var spotify_redirect_uri = 'https://main--webplayer-spotify.netlify.app/auth/callback'
+var spotify_redirect_uri = 'https://webplayer-spotify.netlify.app/auth/callback'
 
 var generateRandomString = function (length) {
   var text = '';
