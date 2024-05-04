@@ -1,5 +1,4 @@
 const express = require('express')
-const request = require('request');
 
 global.access_token = ''
 
@@ -54,12 +53,12 @@ app.get('/auth/callback', (req, res) => {
     json: true
   };
 
-  request.post(authOptions, function(error, response, body) {
+  /*request.post(authOptions, function(error, response, body) {
     if (!error && response.statusCode === 200) {
       access_token = body.access_token;
       res.redirect('/')
     }
-  });
+  });*/
 
 })
 
