@@ -10,10 +10,10 @@ function App() {
   useEffect(() => {
 
     async function getToken() {
-      const response = await fetch('/auth/token');
-      const json = await response.json();
-      //const token = 'BQDFHPADhPXXV2acZr0lsYjOrSQFcHPUwSWpfSYJiPp6bn2GqrOpvv56raw1ph0ftsXY-NaoeDf5dr2OlgbxtECnT7r7kDt_LkH54dTQAPe8M8PjY_V7ver6w59rkP4QlrSuXlu0tTly1mDBwVItu00XnPLI-fLpgfpzQObD_1WgpLfEfWrgk7GVq30D61yIZFqQ1dNi2P2LrnYnjHd0wTEgpPIkTw'
-      setToken(json.access_token);
+      //const response = await fetch('/auth/token');
+      //const json = await response.json();
+      const token = 'BQBe1_fJ-HlGTCabz9cKbosRy7B0WDWCvyhqtpTQJOepR5JDcrVwUumaahHfBTcr9h4OP8JoyLzDeRQ_F_qp4h506UeiREoW-1OuPNbagcXtK-vp7sSHGxekDH5VmwW6CzYp2gRWCywN6HrW19Kx_JxhKTcxE0yFA4M6GdPcwuzLcgAMLGYb1jQVuTEieiM1EwRSn2dj6hR02toy4yL1ZMcoiZM3Ewdq'
+      setToken(token);
     }
 
     getToken();
